@@ -1,0 +1,125 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+.header{
+    border: black 1px solid;
+    background: white;
+}
+.header h1{
+    padding-left: 610px;
+}
+.wrapper{
+    width: 100%;
+    background: purple;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    background: lightgray;
+    flex-flow: column;
+    align-items: center;
+}
+.box{
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+}
+.one{
+    background: white;
+    font-size: x-small;
+}
+.rightcornerone,
+.leftcornerone{
+    display: inline-block;
+}
+.rightcornerone{
+color: lightgray;
+margin-left: 260px;
+}
+.one img{
+    width: 500px;
+    height: 400px;
+    margin-top: 20px;
+}
+.one p{
+      font-size: small;
+      text-align: left;
+      padding: 10px;
+}
+.two{
+    background: white;
+    font-size: x-small;
+    height: 600px;
+    width: 500px;
+    margin: 50px;
+
+}
+.rightcornertwo,
+.leftcornertwo{
+    display: inline-block;
+}
+.rightcornertwo{
+    color: lightgray;
+    margin-left: 230px;
+    
+}
+.two img{
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+}
+.two p{
+      font-size: small;
+      text-align: left;
+      padding: 10px;
+}
+.three{
+    background: white;
+    font-size: x-small;
+}
+.rightcornerthree,
+.leftcornerthree{
+    display: inline-block;
+}
+.rightcornerthree{
+    color: lightgray;
+    margin-left: 215px;
+}
+.three img{
+    width: 500px;
+    height: 400px;
+    margin-top: 20px;
+}
+.three p{
+      font-size: small;
+      text-align: left;
+      padding: 10px;
+
+}
+.four{
+    background: white;
+    font-size: x-small;
+    height: 600px;
+    width: 500px;
+    margin: 50px;
+}
+.rightcornerfour,
+.leftcornerfour{
+    display: inline-block;
+}
+.rightcornerfour{
+    color: lightgray;
+    margin-left: 17px;
+}
+.four img{
+    width: 500px;
+    height: 300px;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+.four p{
+    font-size: small;
+      text-align: left;
+      padding: 10px;
+}
